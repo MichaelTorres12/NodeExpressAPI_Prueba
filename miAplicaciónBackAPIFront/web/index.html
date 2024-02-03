@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>index</title>
+  </head>
+  <body>
+    <div>
+        <form id="saveTransaction">
+            <div>
+                <label for="transactionDescription">DESCRIPTION</label>
+                <input id="transactionDescription" placeholder="Descripcion">
+            </div>
+            <br>
+            <div>
+                <label for="transactionPrice">PRICE</label>
+                <input id="transactionPrice" placeholder="Precio">
+            </div>
+            <br>
+            <div>
+                <button>GUARDAR TRANSACCIÓN</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="buttonSubmit">
+        <button>MostrarDatos</button>
+    </div>
+
+    <!-- Contenedor para mostrar las transacciones -->
+    <div id="transactionsList"></div>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
